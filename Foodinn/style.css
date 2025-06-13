@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Global Reset & Common Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-links1{
+    color:#196f3d ;
+    font-family:"roboto";
+    font-weight:bold;
+}
+
+#nav-links2{
+    color:#196f3d ;
+    font-family:"roboto";
+    font-weight:bold;
+}
+#nav-links3{
+    color:#196f3d ;
+    font-family:"roboto";
+    font-weight:bold;
+}
+#nav-links4{
+    color:#196f3d ;
+    font-family:"roboto";
+    font-weight:bold;
+}
+#nav-links5{
+    color:#196f3d ;
+    font-family:"roboto";
+    font-weight:bold;
+}
+
+
+.nav-custom {
+    color: #196f3d;
+    font-weight: bold;
+    font-family: "Roboto";
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #196f3d;
+    color: white !important;
+    padding: 5px;
+}
+
+.logo1 {
+    background-color: #196f3d;
+    color: white;
+    padding: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.head, .head2, .head3, .head1, .hed, .lasthead {
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.head {
+    font-size: 30px;
+}
+
+.head1 {
+    font-size: 40px;
+    color: white;
+}
+
+.head2, .head3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.head3 {
+    color: #196f3d;
+}
+
+.hed {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.lasthead {
+    font-size: 20px;
+    color: white;
+    margin: 50px 20px 20px 40px;
+}
+
+.para, .para1, .par, .money {
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.para {
+    font-size: 20px;
+    color: grey;
+}
+
+.para1, .par {
+    color: #196f3d;
+}
+
+.money {
+    color: grey;
+    margin: 0 20px;
+    text-decoration: line-through;
+}
+
+.per {
+    color: grey !important;
+    width: 500px;
+}
+
+.button1, .button2 {
+    padding: 10px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.button1 {
+    background-color: #196f3d;
+    color: white;
+    margin-right: 20px;
+}
+
+.button2 {
+    background-color: white;
+    margin-right: 30px;
+}
+
+.box{
+    background-color: #196f3d ;
+    padding-right:300px;
+    padding-left:300px;
+    padding-top:40px;
+    padding-bottom:40px;
+    margin-bottom:30px;
+}
+
+.para1{
+    font-size:15px;
+    color:white;
+    font-family:"roboto";
+}
+
+.sixth-page{
+
+    background-color: #196f3d ;
+}
+
+
+/* Page Sections */
+.first-page,
+.third-page,
+.fifth-page {
+    min-height: 100vh;
+}
+
+.first-page {
+    background-image: url("https://res.cloudinary.com/dv4ub035v/image/upload/v1749790034/bg-1_darnbh.jpg");
+    background-size: cover;
+}
+
+.second-page{
+    height:auto;
+}
+
+.fourth-page {
+    height: 60vh;
+    background-image: url("https://res.cloudinary.com/dv4ub035v/image/upload/v1749790033/bg-2_bhtedi.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sixth-page,
+.seventh-page {
+    min-height: 70vh;
+}
+
+.eight-page {
+    min-height: 50vh;
+    padding: 40px 0;
+}
+.b2 {
+    background-color: #196f3d;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+
+.nineth-page {
+    min-height: 60vh;
+}
+
+.tenth-page {
+    background-color: #196f3d;
+    height: 40vh;
+}
+
+/* Layouts */
+.description {
+    padding: 200px;
+}
+
+.pad {
+    padding: 40px 100px 100px 40px;
+}
+
+.mar {
+    margin: 0 70px;
+}
+
+/* Cards and Images */
+.cardimage1,
+.cardimage2,
+.image11 {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cardimage1 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.cardimage2 {
+    height: 600px;
+    width: 500px;
+}
+
+.image11 {
+    height: 250px;
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+/* Carousel / Feedback */
+.immg {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.corosel {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Icons */
+.ucons {
+    font-size: 60px;
+    margin: 50px 20px 20px 40px;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .description, .pad {
+        padding: 40px 20px;
+    }
+
+    .cardimage1,
+    .cardimage2,
+    .image11 {
+        width: 100%;
+        height: auto;
+    }
+
+    .per {
+        width: 100%;
+    }
+
+    .logo1 {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
